@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /dev-stuff/
-title: dev stuff
-description: 
+permalink: /dev/
+title: dev
+description:
 nav: true
 nav_order: 4
 ---
 
-## Repositories
+## repos
 
 {% if site.data.repositories.github_repos %}
 
@@ -20,7 +20,7 @@ nav_order: 4
 
 ---
 
-## Stats
+## github stats
 
 {% if site.data.repositories.github_users %}
 
