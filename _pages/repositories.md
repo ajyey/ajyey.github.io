@@ -2,7 +2,7 @@
 layout: page
 permalink: /dev-stuff/
 title: dev stuff
-description: Stuff from my Github
+description: 
 nav: true
 nav_order: 4
 ---
