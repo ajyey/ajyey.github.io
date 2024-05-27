@@ -2,20 +2,31 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>
+      <i class="fa-regular fa-envelope fa-lg"></i>
+      <a href="mailto:contact@andrewleonard.dev">contact@andrewleonard.dev</a>
+    </p>
+    <br/>
+    <p>
+      <i class="fa-brands fa-linkedin fa-lg"></i>
+      <a href="https://www.linkedin.com/in/andrewjamesleonard/">in/andrewjamesleonard</a>
+    </p>
+    <br/>
+    <p>
+      <i class="fa-brands fa-github-square fa-lg"></i>
+      <a href="https://github.com/ajyey">ajyey</a>
+    </p>
+    <br/>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
