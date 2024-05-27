@@ -29,8 +29,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+:wave:
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm a software engineer with a passion for designing and building scalable, robust backend systems. I'm currently working at [Ally Financial](https://www.ally.com/) as a [Principal Software Engineer](https://www.linkedin.com/in/andrewjamesleonard/). I'm also a graduate student at [Georgia Institute of Technology](https://www.gatech.edu/), enrolled in [OMSCS](https://omscs.gatech.edu/), where I'm pursuing a master's degree in computer science with a specialization in computing systems
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In my spare time, I like to work on open source projects to continue learning and growing as a software engineer. Here are a few that I've worked on:
+
+- [**`fastmail-masked-email`**](https://github.com/ajyey/fastmail-masked-email)
+- [**`masked-email-manager`**](https://github.com/ajyey/masked-email-manager)
+
+When I’m not at the computer, I’m usually at the gym :weight_lifting:, gaming :video_game:, or hanging out with my two dogs :dog: :dog:
