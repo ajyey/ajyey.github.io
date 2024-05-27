@@ -131,7 +131,7 @@
     {
       "name": "Technologies",
       "level": "Master",
-      "icon": "fa-brands fa-aws",
+      "icon": "fa-solid fa-laptop",
       "keywords": ["Terraform", "Git", "Serverless", "Docker", "Node.js", "Datadog", "Splunk"]
     },
     {
