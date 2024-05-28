@@ -29,9 +29,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I'm a software engineer with a passion for designing and building scalable, robust backend systems. I'm currently working at [Ally Financial](https://www.ally.com/) as a [Principal Software Engineer](https://www.linkedin.com/in/andrewjamesleonard/). I'm also a graduate student at [Georgia Institute of Technology](https://www.gatech.edu/), enrolled in [OMSCS](https://omscs.gatech.edu/), where I'm pursuing a master's degree in computer science with a specialization in computing systems
+I'm a software engineer with a passion for designing and building scalable, robust backend systems. I'm currently working at [Ally Financial](https://www.ally.com/) as a [Principal Software Engineer](https://www.linkedin.com/in/andrewjamesleonard/) building scalable, serverless APIs. I'm also a graduate student at [Georgia Institute of Technology](https://www.gatech.edu/), enrolled in [OMSCS](https://omscs.gatech.edu/), where I'm pursuing a master's degree in computer science with a specialization in computing systems
 
-In my spare time, I like to work on open source projects to continue learning and growing as a software engineer. Here are a few that I've worked on:
+In my spare time, I like to work on open source projects to continue learning and growing as a software engineer. Here are a few that I've built:
 
 - [**`fastmail-masked-email`**](https://github.com/ajyey/fastmail-masked-email)
 - [**`masked-email-manager`**](https://github.com/ajyey/masked-email-manager)
