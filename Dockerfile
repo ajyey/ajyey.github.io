@@ -20,7 +20,8 @@ RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
 ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8 \
-    JEKYLL_ENV=production
+    JEKYLL_ENV=production \
+    TZ=America/New_York
 
 RUN mkdir /srv/jekyll
 
