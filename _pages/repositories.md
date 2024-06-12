@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-## repos
+## Open Source Projects
 
 {% if site.data.repositories.github_repos %}
 
@@ -20,7 +20,7 @@ nav_order: 4
 
 ---
 
-## github stats
+## Github Stats
 
 {% if site.data.repositories.github_users %}
 
