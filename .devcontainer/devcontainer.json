@@ -26,6 +26,6 @@
       }
     }
   },
-  "containerEnv": {"TZ": "America/New_York"},
+  "containerEnv": { "TZ": "America/New_York" },
   "remoteUser": "vscode"
 }
