@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ajyey.github.io/sitemap.xml
+Sitemap: https://andrewleonard.dev/sitemap.xml
