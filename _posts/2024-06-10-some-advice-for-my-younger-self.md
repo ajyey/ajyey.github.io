@@ -82,4 +82,85 @@ Even if no one but myself ever reads these posts, I think having concrete data (
 
 ## 7. Don't Be Afraid to Tackle the Hard Things
 
+TODO
+
 ## 8. Clever Code `!=` Good Code
+
+As a new programmer entering the workforce, there's likely going to be a temptation to flex your muscles and write clever, concise code to showcase your technical prowess.
+
+This is the opposite of what you should be doing.
+
+Clever code or code written for the sake of brevity is almost never synonymous with good code.
+Good code is maintainable, readable, and abundantly easy to understand.
+It prioritizes clarity over brevity, making it easier for others (and your future self) to understand and modify.
+
+One of your goals when writing code should always be to (aside from solving the problem) communicate your intent in the clearest way possible to anyone who reads it.
+Someone who looks at your code should be able to understand what it does and why without having to spend time attempting to decipher it or asking you for clarification.
+
+You'll pat yourself on the back when some time has passed, and you need to revisit that code you wrote weeks or even months ago.
+
+### The Pitfalls of Clever Code
+
+Clever code can be difficult to understand, debug, and maintain.
+Concise one-liners may look cool, but using obscure language features or advanced techniques that are not immediately clear to someone reading the code for the first time can lead to increased development time and more bugs.
+
+Not to mention annoyed (possibly new) team members who have no idea what your code is doing.
+
+Lets look at a couple examples.
+
+### Example 1: List Comprehension vs. Loop
+
+#### Clever
+
+```python
+result = [x**2 for x in range(10) if x % 2 == 0]
+```
+
+#### Good
+
+```python
+result = []
+for num in range(10):
+    num_is_even = num % 2 == 0
+    if num_is_even:
+        result.append(num**2)
+```
+
+In this example, the list comprehension is concise (one liner!), but it may not be immediately clear to someone who isn't familiar with [list comprehensions in Python](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions).
+
+The version that uses a loop is a couple of lines longer, but anyone looking at it can pretty quickly understand what's going on.
+
+### Example 2: Using Built-in Functions vs. Explicit Code
+
+#### Clever
+
+```python
+result = list(map(lambda x: x**2, filter(lambda x: x % 2 == 0, range(10))))
+```
+
+#### Good Code
+
+```python
+result = []
+for num in range(10):
+    num_is_even = num % 2 == 0
+    if num_is_even:
+        result.append(num**2)
+```
+
+Here we're doing the same thing as the previous example, but using the `map` and `filter` functions with lambda expressions.
+
+Another one liner!
+
+Are you familiar with [map](https://docs.python.org/3/library/functions.html#map) and [filter](https://docs.python.org/3/library/functions.html#filter)? If not, this code may be difficult to understand at first glance. Throw in a couple of [lambda expressions](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions) and things can become really confusing.. which is why the explicit loop version is again preferable.
+
+### Writing "Good" Code
+
+When you're writing your code, try and keep some of these things in mind:
+
+1. **Be Explicit**: Write code that very clearly expresses its intent to the reader. Try and avoid using possibly obscure language features that someone may not be familiar with. If this means writing a couple more lines of code, so be it. It's not the end of the world.
+2. **Use Meaningful Names**: Choose variable and function names that describe their purpose and usage. (Duh!) Don't be the guy that uses single letter variable names or names that don't make sense.
+3. **Add Comments**: Most of the time, your code should be self-documenting.. meaning you shouldn't need comments. You've made your code easy to understand remember? But if you're doing something non-obvious, add a comment explaining why you're doing it.
+4. **Follow Established Conventions**: Adhere to coding standards and conventions for your particular language and project. If you're working on a team, this is especially important. Example: your team prepends python function names with an underscore like `_some_cool_function()` to denote that they're private. Stick to that.
+
+Profit.
