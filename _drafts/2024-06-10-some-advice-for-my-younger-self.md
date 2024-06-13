@@ -70,7 +70,7 @@ I guarantee you will forget the many tasks and projects you've successfully comp
 
 Blogception :smile:
 
-Starting a blog is a good way to showcase your technical prowess and keep an archive of your technical growth and experimentation over time. I wish I started writing earlier in my career. Even being able to look back at things like: 
+Starting a blog is a good way to showcase your technical prowess and keep an archive of your technical growth and experimentation over time. I wish I started writing earlier in my career. Even being able to look back at things like:
 
 - technical problems I encountered and solved
 - what was going on in my life at that time
@@ -81,7 +81,5 @@ Starting a blog is a good way to showcase your technical prowess and keep an arc
 Even if no one but myself ever reads these posts, I think having concrete data (i.e. writing pieces) to track my progress over time as a constantly learning engineer is worthwhile.
 
 ## 7. Don't Be Afraid to Tackle the Hard Things
-
-
 
 ## 8. Clever Code `!=` Good Code
