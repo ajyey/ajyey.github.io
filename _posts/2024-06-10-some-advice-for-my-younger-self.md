@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Some Advice for My Younger Self
-date: 2024-06-11 02:56:41
+date: 2024-06-14 01:07:17
 description:
 tags: swe
 categories: software-engineering
@@ -84,11 +84,7 @@ Even if no one but you ever reads these posts, having concrete data (i.e., writt
 
 I think starting a blog is not just about showcasing your technical skills to the world; it's about creating a personal archive of your journey as an engineer.
 
-## 7. Don't Be Afraid to Tackle the Hard Things
-
-TODO
-
-## 8. Clever Code `!=` Good Code
+## 7. Clever Code `!=` Good Code
 
 As a new programmer entering the workforce, there's likely going to be a temptation to flex your muscles and write clever, concise code to showcase your technical prowess.
 
