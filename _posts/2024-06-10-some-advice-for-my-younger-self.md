@@ -40,11 +40,13 @@ This one is likely the most important tidbit out of this list. Yes, even more im
 
 Working as an engineer can be remarkably sedentary. It's very easy to slip into a routine of sitting at a desk for 8+ hours a day followed by more sitting on the couch, thereby not moving much at all. When I find myself slipping into a routine like this, I feel noticeably worse. My body tightens up. My back starts hurting. General motivation quickly wanes.
 
-The solution is consistent exercise. You have to get your body moving to combat the sedentary lifestyle that comes with being stuck in front of a computer a large portion of the day. You should be doing something everyday to get your heart rate elevated and your body sweating. Exercise daily no matter what in some way, shape, or form. For bonus points, add a stretching and mobility routine. I feel like this portion took a turn towards general health advice, but I think it's important to mention.
+The (probably obvious) solution is consistent exercise to combat the sedentary lifestyle that comes with being stuck in front of a computer a majority of the day.
 
-As a bonus, I've found that not only do I feel much better when I'm exercising regularly, but I also tend to be much more motivated to excel in my work and personal projects. So not only will you be healthier, but you'll also trend towards being a better, productive engineer if that's your goal.
+Exercise daily no matter what in some way, shape, or form. For bonus points, add a stretching and mobility routine.
 
-## 4. Don't Be Afraid to Say **No** <sub><sup>(within reason)</sup></sub>
+I've found that not only do I feel drastically better when I'm exercising regularly, but I also tend to be more motivated to excel in my work and personal projects. So not only will you be healthier, but you'll also trend towards being a better, productive engineer if that's your goal.
+
+## 4. Don't Be Afraid to Say **No** (within reason)
 
 This one is a little hard to do when you're fresh, possibly starting your first job, and don't know much.
 
@@ -70,15 +72,17 @@ I guarantee you will forget the many tasks and projects you've successfully comp
 
 Blogception :smile:
 
-Starting a blog is a good way to showcase your technical prowess and keep an archive of your technical growth and experimentation over time. I wish I started writing earlier in my career. Even being able to look back at things like:
+I think starting a blog is an excellent way to showcase your technical skills and knowledge while maintaining a record of your technical growth and experimentation over time. I'm hoping that being able to reflect on my journey as an engineer and documenting my experiences will prove itself to be incredibly rewarding, both personally and professionally. I wish I had started writing earlier in my career. So start writing!
 
-- technical problems I encountered and solved
-- what was going on in my life at that time
-- technologies I've learned
+Being able to look back at things like:
 
-..would have been very rewarding.
+- **Technical Problems Encountered and Solved**: Documenting the challenges you face and their solutions serves as a valuable resource for yourself and others who might encounter similar issues
+- **Life Events and Milestones**: Writing about what was happening in your life at different times can provide context to your technical journey and highlight how personal experiences influence your professional growth.
+- **Technologies Learned**: Keeping track of the technologies you learn and experiment with helps can help with identifying areas of interest. Additionally, looking back at what you've learned can be a great motivator to keep pushing forward and learning new things.
 
-Even if no one but myself ever reads these posts, I think having concrete data (i.e. writing pieces) to track my progress over time as a constantly learning engineer is worthwhile.
+Even if no one but you ever reads these posts, having concrete data (i.e., written pieces) to track progress over time as a constantly learning engineer will end up being invaluable.
+
+I think starting a blog is not just about showcasing your technical skills to the world; it's about creating a personal archive of your journey as an engineer.
 
 ## 7. Don't Be Afraid to Tackle the Hard Things
 
@@ -128,7 +132,7 @@ for num in range(10):
 
 In this example, the list comprehension is concise (one liner!), but it may not be immediately clear to someone who isn't familiar with [list comprehensions in Python](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions).
 
-The version that uses a loop is a couple of lines longer, but anyone looking at it can pretty quickly understand what's going on.
+You could argue that list comprehensions aren't _that_ difficult, but anyone looking at the version which uses an explicit loop should be able to pretty quickly understand what's going on.
 
 ### Example 2: Using Built-in Functions vs. Explicit Code
 
@@ -164,3 +168,12 @@ When you're writing your code, try and keep some of these things in mind:
 4. **Follow Established Conventions**: Adhere to coding standards and conventions for your particular language and project. If you're working on a team, this is especially important. Example: your team prepends python function names with an underscore like `_some_cool_function()` to denote that they're private. Stick to that.
 
 Profit.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/xkcd-1513-code_quality.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+  <a href="https://xkcd.com/1513">https://xkcd.com/1513</a>
+</div>
