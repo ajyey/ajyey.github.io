@@ -17,6 +17,9 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    <!-- Particles Container -->
+    <div id="particles-js"></div>
+
     <!-- Header -->
     {% include header.liquid %}
 
@@ -74,5 +77,25 @@
     {% include scripts/back_to_top.liquid %}
     {% include scripts/search.liquid %}
     <script src="{{ '/assets/js/shortcut-key.js' | relative_url }}"></script>
+    <!-- Particles JS -->
+    <script src="{{ site.third_party_libraries.particles-js.url.js }}"></script>
+    <!-- Initialize Particles.js -->
+    <!-- Initialize Particles.js -->
+    <script>
+      function loadParticlesConfig() {
+        const theme = document.documentElement.getAttribute('data-theme');
+        const configPath =
+          theme === 'dark' ? '{{ "particles-config-dark.json" | relative_url }}' : '{{ "particles-config-light.json" | relative_url }}';
+
+        particlesJS.load('particles-js', configPath);
+      }
+
+      // Load particles config on page load
+      loadParticlesConfig();
+
+      // Re-load particles config when theme changes
+      const observer = new MutationObserver(loadParticlesConfig);
+      observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+    </script>
   </body>
 </html>
