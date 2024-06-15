@@ -17,6 +17,9 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    <!-- Particles Container -->
+    <div id="particles-js"></div>
+
     <!-- Header -->
     {% include header.liquid %}
 
@@ -74,5 +77,11 @@
     {% include scripts/back_to_top.liquid %}
     {% include scripts/search.liquid %}
     <script src="{{ '/assets/js/shortcut-key.js' | relative_url }}"></script>
+    <!-- Particles JS -->
+    <script src="{{ site.third_party_libraries.particles-js.url.js }}"></script>
+    <!-- Initialize Particles.js -->
+    <script>
+      particlesJS.load('particles-js', '{{ "particles-config.json" | relative_url }}');
+    </script>
   </body>
 </html>
