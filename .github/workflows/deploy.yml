@@ -6,6 +6,7 @@ on:
       - release
     paths:
       - "assets/**"
+      - "**.bib"
       - "**.html"
       - "**.js"
       - "**.liquid"
@@ -28,6 +29,7 @@ on:
       - release
     paths:
       - "assets/**"
+      - "**.bib"
       - "**.html"
       - "**.js"
       - "**.liquid"

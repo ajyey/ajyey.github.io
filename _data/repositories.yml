@@ -1,6 +1,8 @@
 github_users:
   - ajyey
 
+repo_description_lines_max: 2
+
 github_repos:
   - ajyey/fastmail-masked-email
   - ajyey/masked-email-manager
