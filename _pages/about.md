@@ -23,10 +23,6 @@ profile:
       <a href="https://github.com/ajyey">ajyey</a>
     </p>
     <br/>
-    <p>
-      <i class="fa-brands fa-square-youtube fa-lg"></i>
-      <a href="https://www.youtube.com/@andrewjleonard">@andrewjleonard</a>
-    </p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
