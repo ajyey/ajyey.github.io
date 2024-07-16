@@ -23,6 +23,10 @@ profile:
       <a href="https://github.com/ajyey">ajyey</a>
     </p>
     <br/>
+    <p>
+      <i class="fa-brands fa-square-youtube fa-lg"></i>
+      <a href="https://www.youtube.com/@andrewjleonard">@andrewjleonard</a>
+    </p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -37,5 +41,10 @@ Here are a few that I've recently built:
 
 - [**`fastmail-masked-email`**](https://github.com/ajyey/fastmail-masked-email)
 - [**`masked-email-manager`**](https://github.com/ajyey/masked-email-manager)
+
+and a few that I've been contributing to lately:
+
+- [**`audiobookshelf`**](https://github.com/advplyr/audiobookshelf)
+- [**`al-folio`**](https://github.com/alshedivat/al-folio)
 
 When I’m not at the computer, I’m usually at the gym :weight_lifting:, gaming :video_game:, or hanging out with my two dogs :dog: :dog:
